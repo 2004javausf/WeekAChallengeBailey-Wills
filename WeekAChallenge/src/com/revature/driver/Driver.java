@@ -21,24 +21,11 @@ public class Driver {
 		
 		Integer boi = 10;
 		double fancy;
-		
-		/*
-		 * NOTE! I am aware of how boiler plate this is.
-		 * However, the scanner class was not cooperating and this was the quickest fix 
-		 * I could think of.
-		 * <3 Elliott
-		 */
+		 
+		//Adding Scanners
 		Scanner sc = new Scanner(System.in);
 		Scanner sc2 = new Scanner(System.in);
 		Scanner sc3 = new Scanner(System.in);
-//		Scanner sc4 = new Scanner(System.in);
-//		Scanner sc5 = new Scanner(System.in);
-//		Scanner sc6 = new Scanner(System.in);
-//		Scanner sc7 = new Scanner(System.in);
-//		Scanner sc8 = new Scanner(System.in);
-//		Scanner sc9 = new Scanner(System.in);
-//		Scanner sc10 = new Scanner(System.in);
-//		Scanner sc11 = new Scanner(System.in);
 		
 		//Cont'd needed variables
 		long a = 1000;
@@ -190,6 +177,10 @@ public class Driver {
 		//Printing out Video Game info
 		System.out.println(vg1);
 		System.out.println(vg2);
+		
+		sc.close();
+		sc2.close();
+		sc3.close();
 
 	}
 	
